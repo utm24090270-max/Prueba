@@ -1,0 +1,14 @@
+# Dependencias de Node
+node_modules/
+
+# Variables de entorno locales (credenciales, secretos)
+.env
+.env.local
+.env.*.local
+
+# Archivos temporales de carga y registros
+uploads/
+*.log
+
+# Archivos del sistema
+.DS_Store
