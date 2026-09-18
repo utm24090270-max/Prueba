@@ -1,20 +1,25 @@
 {
-  "name": "fronted_prototipo",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Backend CRM para persistencia de datos Excel",
+  "main": "src/app.js",
+  "type": "commonjs",
   "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "multer": "^2.3.0",
     "xlsx": "https://cdn.sheetjs.com/xlsx-latest/xlsx-latest.tgz"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
